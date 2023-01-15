@@ -30,6 +30,7 @@ namespace WpfApp1
             }
             catch (Exception e)
             {
+                this.Background = Brushes.DarkRed;//error loading native dll
 
             }
             // this.DataContext = App.Current.Services.GetService<MainWindowViewModel>();

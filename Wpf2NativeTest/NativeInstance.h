@@ -14,8 +14,8 @@ namespace NativeWrappers {
 		T* m_Instance;
 	public:
 		NativeInstance(T* instance)
-			: m_Instance(instance)
 		{
+			m_Instance = instance;
 		}
 		virtual ~NativeInstance()
 		{
